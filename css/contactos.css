@@ -1,0 +1,26 @@
+@charset "utf-8";
+.contactos {
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+}
+.contactos button {
+      margin-bottom: 3vh;
+}
+#boton6, #boton7, #boton8 {
+      font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+      font-size: 2.5vh;
+      width: 35vh;
+      background-color: #CDCCCC;
+      color: #000000;
+      padding: 1vh 1.5vh;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s; /* Efecto de transición en el cambio de color de fondo */
+      &:hover {
+            background-color: #BCBABA; /* Color de fondo al pasar el mouse por encima */
+      }
+}

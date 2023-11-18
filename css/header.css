@@ -1,0 +1,97 @@
+@charset "utf-8";
+body {
+      margin: 0;
+      padding: 0;
+      background: #FFFFFF;
+      font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+      height: 100vh;
+      transition: background-color 0.5s ease;
+}
+.box {
+      border: 0.2vh solid #000000;
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+      height: 5vh; /* Ajusta la altura según sea necesario */
+}
+.content {
+      font-size: 1.8vh; /* Tamaño de la letra del contenido */
+      list-style: none;
+      padding: 0 0;
+      margin: 0 0;
+      display: flex;
+      justify-content: center;
+}
+a {
+      text-decoration: none;
+      color: inherit;
+}
+#boton1, #boton2, #boton3, #boton4, #boton5 {
+      font-size: 2.5vh;
+      font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+      background-color: transparent;
+      margin: 0vh 0vh;
+      padding: 0.5vh 1.8vh;
+      border: none;
+      text-decoration: none;
+      cursor: pointer; /* Cambia el cursor al puntero al pasar el mouse */
+      transition: background-color 0.3s; /* Efecto de transición en el cambio de color de fondo */
+      &:hover {
+            background-color: #CDCCCC; /* Color de fondo al pasar el mouse por encima */
+      }
+}
+#botone {
+      color: black;
+      font-size: 2vh;
+      font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+      background-color: #A7A5A5;
+      border: none;
+      margin: 0vh 0vh;
+      padding: 0.5vh 1.8vh;
+      text-decoration: none;
+      cursor: pointer; /* Cambia el cursor al puntero al pasar el mouse */
+}
+h1 {
+      font-size: 8vh; /* Tamaño de la letra del h1 */
+      padding-top: 5vh;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin: 0;
+}
+.aptitides {
+      margin: 0;
+      font-size: 3vh;
+      padding: 2.5vh 0vh;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+}
+.img {
+   display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      border: 0;
+      margin: 0;
+      padding: 0;
+}
+#fondo {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: 70vh;
+}
+.des2 {
+      border: 0;
+      margin: 0;
+      padding: 0 0 3vh 0;
+      font-size: 2vh;
+}
+.footer {
+      height: 18vh;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+}

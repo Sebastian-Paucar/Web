@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.box-git {
+      margin: 1vh;
+      padding: 5vh;
+      border: 0vh;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+}
