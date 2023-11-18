@@ -4,18 +4,18 @@ document.getElementById('boton1').addEventListener('click', function () {
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton2').addEventListener('click', function () {
-      window.location.href = './body';
+      window.location.href = './php/body.html';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton3').addEventListener('click', function () {
-      window.location.href = './habilidades';
+      window.location.href = './php/habilidades.html';
 });
 document.getElementById('boton4').addEventListener('click', function () {
-      window.location.href = './proyectos';
+      window.location.href = './php/proyectos.html';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton5').addEventListener('click', function () {
-      window.location.href = './contactos';
+      window.location.href = './php/contactos.html';
 });
    function cambiarColorAlHacerScroll() {
       var scrollPos = window.scrollY;
