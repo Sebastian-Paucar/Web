@@ -1,6 +1,6 @@
 // Función para manejar el clic en el botón 1
 document.getElementById('boton1').addEventListener('click', function () {
-      window.location.href = './';
+      window.location.href = 'inicio';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton2').addEventListener('click', function () {

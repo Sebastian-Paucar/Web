@@ -5,7 +5,7 @@ RewriteRule ^error$ 404.html
 RewriteRule ^inicio$ ./
 RewriteRule ^body$ ./php/body.html
 RewriteRule ^habilidades$ ./php/habilidades.html
-RewriteRule ^proyectos$ ./php/proyectos.html
-RewriteRule ^contactos$ ./php/contactos.html
+RewriteRule ^proyectos$ php/proyectos.html
+RewriteRule ^contactos$ php/contactos.html
 
 
