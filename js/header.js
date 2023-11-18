@@ -1,25 +1,23 @@
 // Función para manejar el clic en el botón 1
 document.getElementById('boton1').addEventListener('click', function () {
-      window.location.href = 'inicio';
+      window.location.href = './';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton2').addEventListener('click', function () {
-      window.location.href = './php/body';
+      window.location.href = './body';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton3').addEventListener('click', function () {
-      window.location.href = './php/habilidades';
+      window.location.href = './habilidades';
 });
 document.getElementById('boton4').addEventListener('click', function () {
-      window.location.href = './php/proyectos';
+      window.location.href = './proyectos';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton5').addEventListener('click', function () {
-      window.location.href = 'contactos';
+      window.location.href = './contactos';
 });
-
-
-function cambiarColorAlHacerScroll() {
+   function cambiarColorAlHacerScroll() {
       var scrollPos = window.scrollY;
       var nuevaColor;
 

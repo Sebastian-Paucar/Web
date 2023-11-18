@@ -2,10 +2,19 @@
 body {
       margin: 0;
       padding: 0;
+      border: 0;
       background: #FFFFFF;
       font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-      height: 100vh;
       transition: background-color 0.5s ease;
+}
+iframe {
+      overflow: hidden;
+      width: 100% !important;
+      height: auto;
+   
+}
+.bodyhead{
+   
 }
 .box {
       border: 0.2vh solid #000000;
@@ -13,6 +22,7 @@ body {
       justify-content: center; /* Centra horizontalmente */
       align-items: center; /* Centra verticalmente */
       height: 5vh; /* Ajusta la altura según sea necesario */
+      widows: auto;
 }
 .content {
       font-size: 1.8vh; /* Tamaño de la letra del contenido */
@@ -68,7 +78,7 @@ h1 {
       align-items: center;
 }
 .img {
-   display: flex;
+      display: flex;
       align-content: center;
       justify-content: center;
       align-items: center;
