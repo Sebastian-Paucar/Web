@@ -2,10 +2,10 @@ ErrorDocument 404 http://localhost:8080/Desing/404.html
 Options +FollowSymLinks
 RewriteEngine on
 RewriteRule ^error$ 404.html
-RewriteRule ^inicio$ index.html
-RewriteRule ^body$ php/body.html
-RewriteRule ^habilidades$ php/habilidades.html
-RewriteRule ^proyectos$ php/proyectos.html
-RewriteRule ^contactos$ php/contactos.html
+RewriteRule ^inicio$ ./
+RewriteRule ^body$ ./php/body.html
+RewriteRule ^habilidades$ ./php/habilidades.html
+RewriteRule ^proyectos$ ./php/proyectos.html
+RewriteRule ^contactos$ ./php/contactos.html
 
 

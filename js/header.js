@@ -1,17 +1,17 @@
 // Función para manejar el clic en el botón 1
 document.getElementById('boton1').addEventListener('click', function () {
-      window.location.href = '..';
+      window.location.href = './';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton2').addEventListener('click', function () {
-      window.location.href = 'body';
+      window.location.href = './php/body';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton3').addEventListener('click', function () {
-      window.location.href = 'habilidades';
+      window.location.href = './php/habilidades';
 });
 document.getElementById('boton4').addEventListener('click', function () {
-      window.location.href = 'proyectos';
+      window.location.href = './php/proyectos';
 });
 // Función para manejar el clic en el botón 2
 document.getElementById('boton5').addEventListener('click', function () {
